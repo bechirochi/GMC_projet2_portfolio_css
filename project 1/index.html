@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<!-- Declares the document type and version of HTML -->
+
+<html lang="en">
+<!-- Root element of the HTML page, language is English -->
+
+<head>
+    <!-- Head section contains metadata and links -->
+
+    <meta charset="UTF-8">
+    <!-- Sets character encoding to support all characters -->
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Links external CSS file to style the page -->
+
+ <!-- Google Font: Poppins -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+<title>Portfolio</title>
+    <!-- Title shown in browser tab -->
+</head>
+
+<body>
+<!-- Main content of the webpage starts here -->
+
+    <!-- Header section -->
+    <header class="header">
+        <!-- Top section of the page -->
+
+        <nav class="navbar">
+            <!-- Navigation bar -->
+
+            <ul class="nav-list">
+                <!-- List of navigation links -->
+
+                <li><a href="#home">Home</a></li>
+                <!-- Link to Home section -->
+
+                <li><a href="#about">About</a></li>
+                <!-- Link to About section -->
+
+                <li><a href="#work">Work</a></li>
+                <!-- Link to Work section -->
+
+                <li><a href="#resume">Resume</a></li>
+                <!-- Link to Resume section -->
+
+                <li><a href="#contact">Contact</a></li>
+                <!-- Link to Contact section -->
+
+            </ul>
+        </nav>
+    </header>
+
+    <br><br><br>
+    <!-- Extra spacing (not recommended in professional websites, use CSS instead) -->
+
+    <!-- Home section -->
+    <div id="home">
+        <!-- Empty section used as anchor for Home link -->
+    </div>
+
+    <!-- About section -->
+    <section id="about" class="about-section">
+        <!-- Section about personal information -->
+
+        <h1>About Me</h1>
+        <!-- Main heading -->
+        <img src="webdev2.jpg" alt="Web Development" class="section-img">
+
+        <img class="profile-img" src="bechir.jpeg" alt="My Photo">
+        <!-- Profile image -->
+
+         <img src="webdev.jpg" alt="Web Development" class="section-img">
+
+        <p>
+            <!-- Introduction paragraph -->
+
+            Hello, my name is Bechir. I am 17 years old and I am a Computer Science student. <br>
+            <!-- Line break inside text -->
+
+            I am passionate about Web Development and learning new technologies. <br>
+            <!-- Line break -->
+
+            Currently, I am studying at GoMyCode, where I am improving my skills in HTML, CSS,
+            JavaScript, and modern web development. <br>
+            <!-- Line break -->
+
+            My goal is to become a professional Web Developer and create useful and innovative websites.
+            <!-- Final sentence -->
+        </p>
+
+        <br><br><br>
+        <!-- Extra spacing -->
+
+        <!-- Work section -->
+        <article id="work">
+            <!-- Article used for work/grades section -->
+
+            <h1>Work</h1>
+            <!-- Section title -->
+
+            <dl>
+                <!-- Description list (terms + descriptions) -->
+
+                <dt><mark>Math</mark></dt>
+                <!-- Subject name highlighted -->
+
+                <dd><b>Test</b> 17 <b>/ Exam:</b> 16</dd>
+                <!-- Grades for Math -->
+
+                <dt><mark>Physics</mark></dt>
+                <!-- Subject -->
+
+                <dd><b>Test:</b> 12 <b>/ Exam:</b> 13.5</dd>
+                <!-- Grades -->
+
+                <dt><mark>Programming</mark></dt>
+                <!-- Subject -->
+
+                <dd><b>Test</b> 16 <b>/ Exam:</b> 18</dd>
+                <!-- Grades -->
+
+                <dt><mark>STI</mark></dt>
+                <!-- Subject -->
+
+                <dd><b>Test:</b> 10 <b>/ Exam:</b> 8</dd>
+                <!-- Grades -->
+
+            </dl>
+        </article>
+
+        <br><br><br><br>
+        <!-- Extra spacing -->
+
+        <!-- Resume section -->
+        <aside id="resume">
+            <!-- Side content section -->
+
+            <h1>Resume</h1>
+            <!-- Title -->
+
+            <h2>Personal Information</h2>
+            <!-- Subtitle -->
+
+            <p>Name: Bechir Ochi</p>
+            <!-- Name -->
+
+            <p>Age: 17</p>
+            <!-- Age -->
+
+            <p>Country: Tunisia</p>
+            <!-- Country -->
+
+            <br><br>
+
+            <h2>Skills</h2>
+            <!-- Skills section -->
+
+            <ul class="x">
+                <!-- List of skills -->
+
+                <li>HTML</li>
+                <!-- Skill -->
+
+                <li>Canva</li>
+                <!-- Skill -->
+
+                <li>Figma Basics</li>
+                <!-- Skill -->
+
+                <li>AI Tools</li>
+                <!-- Skill -->
+
+            </ul>
+
+            <br><br>
+
+            <h2>Education</h2>
+            <!-- Education section -->
+
+            <p>High School - IT Student</p>
+            <!-- Education info -->
+
+            <br><br>
+
+            <h2>Projects</h2>
+            <!-- Projects section -->
+
+            <ul class="x">
+                <li>Simple HTML Website</li>
+                <!-- Project -->
+
+                <li>Design in Canva</li>
+                <!-- Project -->
+            </ul>
+
+        </aside>
+
+    </section>
+
+    <br><br><br><br>
+    <!-- Extra spacing -->
+
+    <!-- Footer section -->
+    <footer id="contact" class="footer">
+        <!-- Contact area -->
+
+        <h2>Contact</h2>
+        <!-- Title -->
+
+        <form>
+            <!-- Contact form -->
+
+            <fieldset>
+                <!-- Group form inputs -->
+
+                <legend><mark><b>Contact</b></mark></legend>
+                <!-- Form title -->
+
+                <div>
+                    <label>Name:</label>
+                    <!-- Label for name -->
+
+                    <input type="text" name="name" placeholder="your name">
+                    <!-- Input for name -->
+                </div>
+
+                <div>
+                    <label>Number:</label>
+                    <!-- Label -->
+
+                    <input type="number" name="number" value="54565205">
+                    <!-- Phone number input -->
+                </div>
+
+                <div>
+                    <label>Birth Date:</label>
+                    <!-- Label -->
+
+                    <input type="date" name="birthday">
+                    <!-- Date input -->
+                </div>
+
+                <div>
+                    <label>Email</label>
+                    <!-- Label -->
+
+                    <input type="email" placeholder="........@gmail.com">
+                    <!-- Email input -->
+                </div>
+
+                <textarea name="message" cols="30" rows="5">
+Welcome to my portfolio
+                </textarea>
+                <!-- Message box -->
+
+                <br>
+
+                <input type="submit" value="Submit">
+                <!-- Submit button -->
+
+                <input type="reset">
+                <!-- Reset button -->
+
+            </fieldset>
+        </form>
+
+        <p>Email:</p>
+        <!-- Email label -->
+
+        <p>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">
+                bechirochi91@gmail.com
+            </a>
+            <!-- Email link -->
+        </p>
+
+        <p>Phone: +216 54 565 205</p>
+        <!-- Phone number -->
+
+    </footer>
+
+</body>
+</html>

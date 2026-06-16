@@ -1,0 +1,391 @@
+/* =========================
+   GENERAL STYLE (global page style)
+   ========================= */
+
+/* Style for the whole page */
+body {
+    /* Set main font to Roboto */
+    font-family: 'Poppins', sans-serif;
+
+    /* Remove default spacing */
+    margin: 0;
+    padding: 0;
+
+    /* Dark modern background color */
+    background-color: #0f172a;
+
+    /* Main text color */
+    color: #e2e8f0;
+}
+
+
+/* =========================
+   NAVBAR
+   ========================= */
+
+/* Navbar container */
+.navbar {
+    /* Dark background for navbar */
+    background-color: #1e293b;
+
+    /* Space inside navbar */
+    padding: 15px;
+
+    /* Shadow for modern effect */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+/* Navigation list */
+.nav-list {
+    /* Remove bullets */
+    list-style: none;
+
+    /* Center the menu */
+    text-align: center;
+
+    /* Remove default spacing */
+    margin: 0;
+    padding: 0;
+}
+
+/* Each menu item */
+.nav-list li {
+    /* Make items inline (horizontal menu) */
+    display: inline;
+
+
+
+    /* Space between items */
+    margin: 0 20px;
+}
+
+/* Navbar links */
+.nav-list a {
+    /* White text color */
+    color: #f8fafc;
+
+    /* Remove underline */
+    text-decoration: none;
+
+    /* Bold text */
+    font-weight: bold;
+
+    /* Smooth hover animation */
+    transition: 0.3s;
+}
+
+/* Hover effect on links */
+.nav-list a:hover {
+    /* Change color on hover */
+    color: #22d3ee;
+}
+
+
+/* =========================
+   ABOUT SECTION
+   ========================= */
+
+/* About section container */
+.about-section {
+    /* Center text */
+    text-align: center;
+
+    /* Space around section */
+    padding: 40px;
+}
+
+/* Profile image */
+.profile-img {
+    /* Image size */
+    width: 300px;
+
+    /* Make image round */
+    border-radius: 50%;
+
+    /* Cyan border */
+    border: 4px solid #22d3ee;
+}
+
+
+/* =========================
+   WORK + RESUME CARDS
+   ========================= */
+
+/* Style for article and aside (cards) */
+article,
+aside {
+    /* Space outside */
+    margin: 30px;
+
+    /* Space inside */
+    padding: 20px;
+
+    /* Card background */
+    background: #1e293b;
+
+    /* Rounded corners */
+    border-radius: 15px;
+
+    /* Shadow effect */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+}
+
+
+/* =========================
+   TITLES
+   ========================= */
+
+/* Style for all headings */
+h1, h2 {
+    /* Cyan color for modern look */
+    color: #22d3ee;
+}
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+/* Footer section */
+.footer {
+    /* Darker background */
+    background-color: #020617;
+
+    /* Text color */
+    color: #e2e8f0;
+
+    /* Space inside footer */
+    padding: 20px;
+
+    /* Center text */
+    text-align: center;
+}
+
+/* Footer links */
+.footer a {
+    /* Cyan link color */
+    color: #22d3ee;
+
+    /* Remove underline */
+    text-decoration: none;
+}
+
+/* Hover effect for footer links */
+.footer a:hover {
+    /* Lighter cyan */
+    color: #67e8f9;
+}
+
+
+/* =========================
+   FORM INPUTS
+   ========================= */
+
+/* Style for inputs and textarea */
+input,
+textarea {
+    /* Full width */
+    width: 100%;
+
+    /* Space inside */
+    padding: 10px;
+
+    /* Space between fields */
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+    /* Remove default border */
+    border: none;
+
+    /* Rounded corners */
+    border-radius: 8px;
+
+    /* Dark input background */
+    background-color: #334155;
+
+    /* White text */
+    color: white;
+}
+
+
+/* Submit and Reset buttons */
+input[type="submit"],
+input[type="reset"] {
+
+    /* Button background color */
+    background-color: #22d3ee;
+
+    /* Text color */
+    color: #0f172a;
+
+    /* Bold text */
+    font-weight: bold;
+
+    /* Pointer cursor on hover */
+    cursor: pointer;
+
+    /* Smooth animation */
+    transition: 0.3s;
+}
+
+/* Hover effect for buttons */
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+
+    /* Lighter background on hover */
+    background-color: #67e8f9;
+}
+
+.footer a:hover {
+    color: #67e8f9;
+}
+
+/* Form */
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #334155;
+    color: white;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #22d3ee;
+    color: #0f172a;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #67e8f9;
+}
+.x{
+    list-style: none;
+}
+.section-img {
+/* Image size */
+    width: 200px;
+    height: 300px;
+
+    /* Make image round */
+    border-radius: 50%;
+
+    /* Cyan border */
+    border: 4px solid #22d3ee;
+}
+/* =========================
+   PAGE ANIMATION (FADE IN)
+   ========================= */
+
+/* Animate body when page loads */
+body {
+    animation: fadeIn 1s ease-in;
+}
+
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+    /* Start hidden and moved down */
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    /* End visible and normal position */
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* =========================
+   SMOOTH SCROLL
+   ========================= */
+
+/* Enable smooth scrolling for navigation */
+html {
+    scroll-behavior: smooth;
+}
+
+/* =========================
+   IMAGE HOVER ANIMATION
+   ========================= */
+
+/* Default image style */
+.section-img {
+    transition: 0.3s;
+}
+
+/* Zoom effect on hover */
+.section-img:hover {
+    transform: scale(1.1);
+}
+
+/* =========================
+   NAVBAR ANIMATION
+   ========================= */
+
+/* Navbar links default style */
+.nav-list a {
+    transition: 0.3s;
+    position: relative;
+}
+
+/* Hover effect for links */
+.nav-list a:hover {
+    color: #22d3ee;
+    transform: translateY(-3px);
+}
+
+/* =========================
+   TITLE EFFECT (GLOW)
+   ========================= */
+
+/* Titles default state */
+h1, h2 {
+    transition: 0.3s;
+}
+
+/* Glow effect on hover */
+h1:hover, h2:hover {
+    text-shadow: 0 0 10px #22d3ee;
+}
+
+/* =========================
+   CARDS ANIMATION
+   ========================= */
+
+/* Work and Resume cards */
+article,
+aside {
+    transition: 0.4s;
+}
+
+/* Lift effect on hover */
+article:hover,
+aside:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+/* =========================
+   BUTTON ANIMATION
+   ========================= */
+
+/* Buttons style */
+input[type="submit"],
+input[type="reset"] {
+    transition: 0.3s;
+}
+
+/* Button hover effect */
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    transform: scale(1.05);
+}
